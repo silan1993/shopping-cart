@@ -34,7 +34,7 @@ router.post('/add-to-cart', async function (req, res, next) {
       TotalPrice += cartItemData.price * cartItemData.qty
       discountPrice += cartItemData.qty * 5
       finalPrice += (TotalPrice - discountPrice)
-    } else if (cartItemData.name == "B" && cartItemData.qty > 2) {
+    } else if (cartItemData.name == "B" && cartItemData.qty > 1) {
       TotalPrice += cartItemData.price * cartItemData.qty
       discountPrice += cartItemData.qty * 2.5
       finalPrice += (TotalPrice - discountPrice)
