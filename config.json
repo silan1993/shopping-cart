@@ -1,0 +1,19 @@
+{
+    "item":[
+        {
+            "name":"A",
+            "discountedPrice":75,
+            "discountedItemCOunt":3
+        },
+        {
+            "name":"B",
+            "discountedPrice":35,
+            "discountedItemCOunt":2
+        },
+        {
+            "name":"total",
+            "discountedPrice":20,
+            "cartPrice":150
+        }
+    ]
+}
